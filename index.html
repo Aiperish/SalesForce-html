@@ -1,0 +1,116 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D7Q000008Mf3V">
+<input type=hidden name="retURL" value="http://">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="aipo.kazakbaeva@gmail.com">                                      -->
+<!--  ----------------------------------------------------------------------  -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+	
+        <title>Salesforce</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+<table align="center">
+<h2 data-text="Dear, customer. Please fill out the form below.">&nbsp;Dear, customer. Please fill out the form below.&nbsp;</h2>
+<tr>
+<td>
+<div class= "inputBox">
+<label for="name"></label><input  id="name" maxlength="80" name="name"  type="text" required="required"/><br>
+<span>Contact Name</span>
+</div>
+</td>
+
+<td>
+<div class= "inputBox">
+<label for="company"></label><input  id="company" maxlength="80" name="company" type="text" required="required"/><br>
+<span>Company</span>
+</div>
+</td>
+</tr>
+</table>
+
+
+<table align="center">
+<tr>
+<td>
+<div class= "inputBox">
+<label for="phone"></label><input  id="phone" maxlength="40" name="phone"  type="number" required="required" /><br>
+<span>Phone</span>
+</div>
+</td>
+<td>
+<div class= "inputBox">
+<label for="priority"></label><select  id="priority" name="priority" required="required"><option value="">--None--</option><option value="High">High</option>
+<option value="Medium">Medium</option>
+<option value="Low">Low</option>
+</select><br>
+<span>Priority</span>
+</div>
+</td>
+</tr>
+</table>
+
+
+<table align="center">
+<tr>
+<td>
+<div class= "inputBox">
+<label for="email"></label><input  id="email" name="email"  type="text" required="required" /><br>
+<span>Email</span>
+</div>
+
+</td>
+<td>
+<div class= "inputBox">
+<label for="subject"></label><input  id="subject" maxlength="80" name="subject" type="text"  required="required"/><br>
+<span>Subject</span>
+</div>
+</td>
+</tr>
+</table>
+
+<table align="center">
+<tr>
+<td>
+<div class= "inputArea">
+<label for="description"></label><textarea name="description" required="required"></textarea><br>
+<span>Description</span>
+</div>
+</td>
+</tr>
+</table>
+
+<table align="center">
+<tr>
+<td> 
+ <div style="--clr:#1e9bff">
+ <button class="slds-button slds-button_inverse"><span>Sumbit</span><i></i></button>
+ </div>
+</td>
+</tr>
+</table>
+   
+</body>
+</html>
+</form>
